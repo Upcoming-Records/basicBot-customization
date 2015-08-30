@@ -10,6 +10,8 @@
           return setTimeout(extend, 1 * 1000);
         }
 
+
+        var autoRules = true;
         // Precaution to make sure it is assigned properly.
         var bot = window.bot;
 
@@ -24,7 +26,12 @@
           window.bot.chatUtilities.spam.push(spamWords[i]);
         }
         
-        setInterval(function () {API.sendChat("!website");} 1000 * 60 * 1);
+        setInterval(function () {
+        if(autoRules === true) {
+        API.sendChat("!rules");
+            }
+            },
+            1000 * 60 * 1);
 
         // Example code for a bot command:
         bot.commands.baconCommand = {
