@@ -48,7 +48,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "Z00P",
       language: "english",
-      chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+      chatLink: "https://rawgit.com/Upcoming-Records/basicBot/master/lang/en.json",
       scriptLink: "https://rawgit.com/Upcoming-Records/basicBot/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
@@ -105,9 +105,9 @@
       songstats: true,
       commandLiteral: "!",
       blacklists: {
-        NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/NSFWlist.json",
-        OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/OPlist.json",
-        BANNED: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/BANNEDlist.json"
+        NSFW: "https://rawgit.com/Upcoming-Records/basicBot-customization/master/blacklists/NSFWlist.json",
+        OP: "https://rawgit.com/Upcoming-Records/basicBot-customization/master/blacklists/OPlist.json",
+        BANNED: "https://rawgit.com/Upcoming-Records/basicBot-customization/master/blacklists/BANNEDlist.json"
       }
     }));
 
