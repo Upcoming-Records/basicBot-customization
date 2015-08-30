@@ -119,7 +119,7 @@
       website: "http://UpcomingRecords.com",
       intervalMessages: [],
       messageInterval: 5,
-      songstats: true,
+      songstats: false,
       commandLiteral: "!",
       blacklists: {
         BANNED: "https://rawgit.com/Upcoming-Records/basicBot-customization/master/blacklists/BANNEDlist.json"
