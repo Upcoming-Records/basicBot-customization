@@ -23,6 +23,8 @@
         for (var i = 0; i < spamWords.length; i++) {
           window.bot.chatUtilities.spam.push(spamWords[i]);
         }
+        
+        setInterval(function () {API.sendChat("!website");} 1000 * 60 * 1);
 
         // Example code for a bot command:
         bot.commands.baconCommand = {
