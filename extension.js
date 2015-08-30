@@ -31,7 +31,7 @@
             API.sendChat("!rules");
             }
             },
-            1000 * 60 * 78);
+            1000 * 60 * 1);
             
         // Example code for a bot command:
         bot.commands.baconCommand = {
