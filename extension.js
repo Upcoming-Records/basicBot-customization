@@ -11,8 +11,10 @@
         }
 
         // Precaution to make sure it is assigned properly.
+        
+        var autoRules = true;
         var bot = window.bot;
-
+        var minute= 1000 * 60;
         // Load custom settings set below
         bot.retrieveSettings();
 
@@ -23,7 +25,14 @@
         for (var i = 0; i < spamWords.length; i++) {
           window.bot.chatUtilities.spam.push(spamWords[i]);
         }
-
+        
+        setInterval(function () {
+            if(autoRules === true) {
+            API.sendChat("!rules");
+            }
+            },
+            1000 * 60 * 78);
+            
         // Example code for a bot command:
         bot.commands.baconCommand = {
             command: 'bacon',  // The command to be called. With the standard command literal this would be: !bacon
