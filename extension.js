@@ -10,8 +10,6 @@
           return setTimeout(extend, 1 * 1000);
         }
 
-
-        var autoRules = true;
         // Precaution to make sure it is assigned properly.
         var bot = window.bot;
 
@@ -25,7 +23,7 @@
         for (var i = 0; i < spamWords.length; i++) {
           window.bot.chatUtilities.spam.push(spamWords[i]);
         }
-        
+
         // Example code for a bot command:
         bot.commands.baconCommand = {
             command: 'bacon',  // The command to be called. With the standard command literal this would be: !bacon
@@ -102,9 +100,9 @@
       fbLink: "https://www.facebook.com/UpcomingRecords",
       youtubeLink: "https://www.youtube.com/channel/UCBBUIXDJMGATz8Flj65sojg",
       website: "http://UpcomingRecords.com",
-      intervalMessages: ["test1","test2","test3"],
-      messageInterval: 30,
-      songstats: false,
+      intervalMessages: [],
+      messageInterval: 5,
+      songstats: true,
       commandLiteral: "!",
       blacklists: {
         BANNED: "https://rawgit.com/Upcoming-Records/basicBot-customization/master/blacklists/BANNEDlist.json"
