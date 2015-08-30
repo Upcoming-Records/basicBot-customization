@@ -101,8 +101,8 @@
       youtubeLink: "https://www.youtube.com/channel/UCBBUIXDJMGATz8Flj65sojg",
       website: "http://UpcomingRecords.com",
       intervalMessages: ["!rules","!fb","!rules""!website","!theme","!youtube"],
-      messageInterval: 1,
-      songstats: true,
+      messageInterval: 8,
+      songstats: false,
       commandLiteral: "!",
       blacklists: {
         BANNED: "https://rawgit.com/Upcoming-Records/basicBot-customization/master/blacklists/BANNEDlist.json"
