@@ -102,7 +102,7 @@
       fbLink: "https://www.facebook.com/UpcomingRecords",
       youtubeLink: "https://www.youtube.com/channel/UCBBUIXDJMGATz8Flj65sojg",
       website: "http://UpcomingRecords.com",
-      intervalMessages: [],
+      intervalMessages: ["test1","test2","test3"],
       messageInterval: 30,
       songstats: false,
       commandLiteral: "!",
