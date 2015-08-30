@@ -12,6 +12,7 @@
 
         // Precaution to make sure it is assigned properly.
         
+        var autoFB = true;
         var autoRules = true;
         var bot = window.bot;
         var minute= 1000 * 60;
@@ -32,6 +33,13 @@
             }
             },
             1000 * 60 * 20);
+            
+            setInterval(function () {
+                if(autoShuffle === true) {
+                API.sendChat("!fb");
+                }
+                },
+                1000 * 60 * 40);
             
         // Example code for a bot command:
         bot.commands.baconCommand = {
