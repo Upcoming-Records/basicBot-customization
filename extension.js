@@ -34,12 +34,12 @@
             },
             1000 * 60 * 20);
             
-            setInterval(function () {
-                if(autoShuffle === true) {
-                API.sendChat("!fb");
-                }
-                },
-                1000 * 60 * 40);
+        setInterval(function () {
+            if(autoFB === true) {
+            API.sendChat("!fb");
+            }
+            },
+            1000 * 60 * 40);
             
         // Example code for a bot command:
         bot.commands.baconCommand = {
