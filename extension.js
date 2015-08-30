@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "Z00P",
       language: "english",
       chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
       scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
@@ -58,7 +58,7 @@
       autoskip: false,
       smartSkip: true,
       cmdDeletion: true,
-      maximumAfk: 120,
+      maximumAfk: 420,
       afkRemoval: true,
       maximumDc: 60,
       bouncerPlus: true,
@@ -89,9 +89,9 @@
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
       motdEnabled: false,
-      motdInterval: 5,
-      motd: "Temporary Message of the Day",
-      filterChat: true,
+      motdInterval: 25,
+      motd: "@everyone Make sure to favorite this room by clicking the ✩ button in the top left toolbar next to the room name!",
+      filterChat: false,
       etaRestriction: false,
       welcome: true,
       opLink: null,
