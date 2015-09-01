@@ -40,14 +40,14 @@
             API.sendChat("!fb");
             }
             },
-            1000 * 60 * 42);
+            1000 * 60 * 70);
             
         setInterval(function () {
             if(autoRules === true) {
-            API.sendChat("'Artist - Title (Remix)' @everyone Please remember to title your plays correctly so I can keep track of them. If you play a song with [Genre] it will be skipped.");
+            API.sendChat("Check out these playlists if you need help finding more songs to play: http://tinyurl.com/upcomingrecords-playlists");
             } 
             },
-            1000 * 60 * 70);
+            1000 * 60 * 42);
             
         // Example code for a bot command:
         bot.commands.baconCommand = {
