@@ -14,7 +14,7 @@
         
         var autoFB = true;
         var autoRules = true;
-        var autoLabel = true;
+        var autoPlaylist = true;
         var bot = window.bot;
         var minute= 1000 * 60;
         // Load custom settings set below
@@ -43,7 +43,7 @@
             1000 * 60 * 70);
             
         setInterval(function () {
-            if(autoRules === true) {
+            if(autoPlaylist === true) {
             API.sendChat("Check out these playlists if you need help finding more songs to play: http://tinyurl.com/upcomingrecords-playlists");
             } 
             },
