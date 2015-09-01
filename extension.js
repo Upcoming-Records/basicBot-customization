@@ -14,6 +14,7 @@
         
         var autoFB = true;
         var autoRules = true;
+        var autoLabel = true;
         var bot = window.bot;
         var minute= 1000 * 60;
         // Load custom settings set below
@@ -32,7 +33,7 @@
             API.sendChat("!rules");
             }
             },
-            1000 * 60 * 18);
+            1000 * 60 * 30);
             
         setInterval(function () {
             if(autoFB === true) {
@@ -40,6 +41,13 @@
             }
             },
             1000 * 60 * 42);
+            
+        setInterval(function () {
+            if(autoRules === true) {
+            API.sendChat("@everyone Please remember to title your plays correctly so I can keep track of them. ex) Artist - Title (Remix");
+            }
+            },
+            1000 * 60 * 70);
             
         // Example code for a bot command:
         bot.commands.baconCommand = {
