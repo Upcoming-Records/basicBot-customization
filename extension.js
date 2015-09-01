@@ -44,7 +44,7 @@
             
         setInterval(function () {
             if(autoRules === true) {
-            API.sendChat("@everyone ex) 'Artist - Title (Remix)' Please remember to title your plays correctly so I can keep track of them. If you play a song with [Genre] it will be skipped.");
+            API.sendChat("'Artist - Title (Remix)' @everyone Please remember to title your plays correctly so I can keep track of them. If you play a song with [Genre] it will be skipped.");
             } 
             },
             1000 * 60 * 70);
