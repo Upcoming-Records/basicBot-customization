@@ -105,7 +105,7 @@
       skipReasons: [
       ["theme", "This song does not fit the room theme. "],
       ["op", "This song is on the OP list. "],
-      ["history", "This song is in the history. "],
+      ["history", "This song is in the history. Check out this link if you need help finding more songs to play: http://tinyurl.com/upcomingrecords-playlists "],
       ["mix", "You played a mix, which is against the rules. "],
       ["sound", "The song you played had bad sound quality or no sound. "],
       ["nsfw", "The song you contained was NSFW (image or sound). "],
