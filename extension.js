@@ -115,7 +115,7 @@
       afkRankCheck: "ambassador",
       motdEnabled: true,
       motdInterval: 42,
-      motd: "@everyone Make sure to favorite this room by clicking the ✩ button in the top left toolbar next to the room name!",
+      motd: "@djs Make sure to favorite this room by clicking the ✩ button in the top left toolbar next to the room name!",
       filterChat: false,
       etaRestriction: false,
       welcome: true,
