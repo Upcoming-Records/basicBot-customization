@@ -14,7 +14,7 @@
         
         var autoFB = true;
         var autoRules = true;
-        var autoPlaylist = true;
+        var autoPlaylist = false;
         var bot = window.bot;
         var minute= 1000 * 60;
         // Load custom settings set below
@@ -33,7 +33,7 @@
             API.sendChat("!rules");
             }
             },
-            1000 * 60 * 30);
+            1000 * 60 * 45);
             
         setInterval(function () {
             if(autoFB === true) {
